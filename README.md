@@ -1,16 +1,41 @@
-### Hi there 👋
+<h1 align="center">
+  <b>Kars Talens</b>
+</h1>
 
-<!--
-**TheOnly3aq/TheOnly3aq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Hiya! I'm Kars talens and I'm currently living in Groningen. I mainly focus on frontend development, but in my free time I work on fivem servers using lua.
 
-Here are some ideas to get you started:
+<br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=lua,html,css,js,ts">
+</div>
+</p>
+
+```lua
+TheOnly3aq = {}
+
+function TheOnly3aq:new()
+    local obj = {
+        name = "Kars Talens",
+        username = "TheOnly3aq",
+        location = "Groningen, Netherlands",
+        twitter = "@karstalens",
+        web = "https://karstalens.nl"
+    }
+    setmetatable(obj, self)
+    self.__index = self
+    return obj
+end
+```
+
+
+## My Statistics
+
+<br/>
+<p align="left">
+  <a href="https://karstalens.nl/">
+  <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=TheOnly3aq&show_icons=true&theme=gruvbox&hide_border=true" />
+  <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=TheOnly3aq&theme=gruvbox&hide_border=true" />
+  </a>
+</p>
